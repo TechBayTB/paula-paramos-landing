@@ -1,0 +1,152 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    align-items: center;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.174);
+    height: 100px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.nav-logo {
+transition: all 0.3s ease 0s;
+letter-spacing: 10px;
+}
+
+.nav-info {
+display: flex;
+justify-content: flex-end;
+gap: 3%;
+padding: 20px;
+width: 60%;
+}
+
+.nav-links {
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+transition: all 0.5s;
+width: 100px;
+}
+a {
+color: #3CA7C5;
+text-decoration: none;
+}
+.button-nav {
+text-decoration: none;
+background-color: transparent;
+position: relative;
+border: none;
+color: #3CA7C5;
+font-size: 16px;
+font-weight: 200;
+height: 25px;
+width: 120px;
+cursor: pointer;
+transition: all 0.3s;
+font-weight: bolder;
+}
+
+.button-nav:hover {
+color: #3CA7C5;
+font-size: 18px;
+}
+
+.button-nav:after {
+content: "";
+position: absolute;
+background-color: rgb(73, 73, 73);
+width: 0;
+height: 2px;
+left: 25%;
+bottom: -10px;
+transition: all 0.3s;
+}
+
+.button-nav:hover:after {
+width: 50%;
+}
+
+.nav-bar-responsive {
+position: fixed;
+height: 100vh;
+width: 100%;
+/* background-color: rgb(218, 161, 91); */
+background-color: #ffffff;
+display: flex;
+flex-flow: column wrap;
+justify-content: flex-start;
+align-items: center;
+z-index: 10001;
+}
+
+.nav-links-responsive {
+display: flex;
+flex-flow: column wrap;
+justify-content: flex-start;
+align-items: center;
+}
+.nav-responsive {
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+.toggle-responsive {
+position: relative;
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+padding-top: 40px;
+}
+
+.nav-links-responsive {
+margin-top: 10px;
+}
+
+.burger {
+margin-top: 20px;
+}
+.nav-responsive-line {
+display: none;
+}
+
+@media screen and (max-width: 768px) {
+.nav {
+    display: none;
+}
+.nav-responsive-line {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    align-items: center;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.174);
+    height: 100px;
+    padding-left: 20px;
+}
+.nav-responsive-links {
+    position: relative;
+    width: 60%;
+    display: flex;
+}
+.toggle {
+    position: absolute;
+    top: -10px;
+    right: 125px;
+}
+.burger-responsive {
+    margin-bottom: 60px;
+}
+}
