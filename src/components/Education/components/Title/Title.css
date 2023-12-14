@@ -1,0 +1,10 @@
+.education-title{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    flex-flow: column;
+    gap: 20px;
+    width: 280px;
+    justify-content: space-around;
+}

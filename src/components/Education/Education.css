@@ -1,0 +1,24 @@
+.Education{
+    width: 100%;
+    display: flex;
+    background-position: 1px;
+    background-color: #30B2DC;
+}
+
+.education-background{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1024px;
+    margin: 0 auto;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+
+@media (max-width: 700px){
+    .education-background{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-flow: column;
+    }
+}

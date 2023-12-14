@@ -1,0 +1,52 @@
+.AboutMe{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    background-position: 1px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.about-me-background{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me-pic{
+    max-height: 368px;
+    max-width: 556px;
+}
+
+
+.about-me-title{
+    color: #30B2DC;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.about-me-title h2{
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.about-me-title h3{
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.about-me-title p{
+    white-space: pre-line;
+}
+
+@media (max-width: 700px){
+    .about-me-background{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-flow: column;
+    }
+}
