@@ -1,0 +1,14 @@
+.message-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    flex-flow: column;
+    /* gap: 20px; */
+    /* width: px; */
+    justify-content: space-around;
+}
+
+.name{
+    font-size: large;
+}

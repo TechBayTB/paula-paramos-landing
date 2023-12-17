@@ -1,0 +1,21 @@
+.WhyMe{
+    width: 100%;
+    /* display: flex; */
+    background-position: 1px;
+
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.whyme-title{
+    color: #30B2DC;
+    letter-spacing: 5px;
+}
+
+.whyme-container{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:  auto;
+}

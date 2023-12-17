@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import LanguageContext from "../../Context/Language";
 import { LanguageTypes } from "../Types/LanguageTypes";
 import './Education.css'
@@ -14,6 +14,8 @@ const Education = () => {
         { title: "Profesora de Inglés", titledesc: "-", year: "2002"  },
         { title: "Traductora Pública ", titledesc: "Inglés / Español", year: "2002" },
     ];
+
+    
 
     return (
         <>

@@ -1,0 +1,24 @@
+.Comments{
+    width: 100%;
+    /* display: flex; */
+    background-position: 1px;
+    background-color: #30B2DC;
+}
+
+.comments-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    /* gap: 30px; */
+    padding-top: 50px;
+}
+
+button{
+    margin: 50px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color : #ffffff;
+    font-size: large;
+}
