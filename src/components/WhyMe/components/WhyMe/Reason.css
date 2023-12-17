@@ -1,0 +1,24 @@
+.reason-container{
+    text-align: center;
+    
+    margin: 15px
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+
+}
+
+.title{
+    color: #30B2DC;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.descrip{
+    margin: 15px;
+    max-width: 200px;
+    color: #30B2DC;
+}
