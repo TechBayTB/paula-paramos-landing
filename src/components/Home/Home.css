@@ -1,7 +1,12 @@
+#home {
+    width: 100vw;
+    background-image: url(../../assets/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .Home{
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-flow: column;
     background-position: 1px;
