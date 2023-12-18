@@ -1,11 +1,12 @@
 .WhyMe{
     width: 100%;
-    /* display: flex; */
     background-position: 1px;
 
     text-align: center;
-    /* align-items: center;
-    justify-content: center; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* border: 1px solid black; */
 }
 
 .whyme-title{
@@ -14,8 +15,11 @@
 }
 
 .whyme-container{
-    width: 50%;
+    /* border: 1px solid black; */
+    width: 100%;
+    max-width: 1024px;
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    margin:  auto;
+    margin: auto;
 }

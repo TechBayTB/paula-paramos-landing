@@ -8,6 +8,7 @@ const Reason = ({logo,title,descrip}) => {
 
     return (
         <>
+            
             <div className="reason-container">
                 {/* <img className="education-pic" src={require('../../../../assets/education.png')} alt='logo' /> */}
                 <img src={require(`../../../../assets/${logo}`)} alt="logo" className="logo"/>
