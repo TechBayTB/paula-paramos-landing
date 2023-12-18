@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe/AboutMe';
 import Education from './components/Education/Education';
 import Comments from './components/Comments/Comments';
 import WhyMe from './components/WhyMe/WhyMe';
+import Translation from './components/Translation/Translation';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Education />
       <WhyMe />
       <Comments />
+      <Translation />
     </LanguageContextProvider>
   );
 }

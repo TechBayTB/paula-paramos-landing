@@ -1,0 +1,21 @@
+.Translation {
+    width: 100%;
+    background-position: 1px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+.h2-translations{
+    color: #30B2DC;
+}
+
+.img-translation{
+    width: 500px;
+}
+
+.translation-text-container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

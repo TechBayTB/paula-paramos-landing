@@ -11,14 +11,11 @@ const Home = () => {
     }
     return (
         <>
-            <div id='home'>
-                <div className="Home">
-                    <div className="home-background">
-                        {/*<img className="home-logo" src={require('../../assets/logo.png')} alt='logo' />*/}
-                        <div className="home-title">
-                            <h2>{language === LanguageTypes.SPANISH ? HomeSpanish.h2 : HomeEnglish.h2}</h2>
-                        </div>
-                        <button className="home-button" onClick={() => handleNavigation('service')} >{language === LanguageTypes.SPANISH ? HomeSpanish.button : HomeEnglish.button}</button>
+            <div className="Home" id='home'>
+                <div className="home-background">
+                    {/* <img className="home-logo" src={require('../../assets/fondo2.jpg')} alt='logo' /> */}
+                    <div className="home-title">
+                        <h2>{language === LanguageTypes.SPANISH ? HomeSpanish.h2 : HomeEnglish.h2}</h2>
                     </div>
                 </div>
             </div>
