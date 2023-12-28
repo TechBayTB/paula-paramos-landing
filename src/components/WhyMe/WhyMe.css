@@ -1,26 +1,63 @@
 .WhyMe{
-    width: 100%;
-    background-position: 1px;
-
+    height: 125vh;
+    color: #30B2DC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* border: 1px solid black; */
+    gap: 10px;
 }
 
 .whyme-title{
-    color: #30B2DC;
-    letter-spacing: 5px;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.whyme-title:hover {
+    color: #da2ca5;
+    transition: .5s;
 }
 
 .whyme-container{
-    /* border: 1px solid black; */
-    width: 100%;
-    max-width: 1024px;
-    justify-content: space-between;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    margin: auto;
+}
+
+
+@media screen and (max-width: 500px) {
+    .WhyMe{
+        height: 200vh;
+        gap: 20px;
+    }
+    .whyme-container{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .WhyMe{
+        height: 155vh;
+        gap: 15px;
+    }
+    .whyme-container{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .whyme-container{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .whyme-title{
+        font-size: 40px;
+    }
+    .whyme-container{
+        justify-content: space-between;
+        max-width: 1024px;
+    }
 }

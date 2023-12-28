@@ -18,18 +18,16 @@ const WhyMe = () => {
     return (
         <>
             <div className="WhyMe" id="WhyMe">
-                <div>
-                    <h2 className="whyme-title">{title}</h2>
-                    <div className="whyme-container" id="whyme-container">
-                        {reason.map((data, index) => (
-                            <Reason
-                                key={index}
-                                logo={data.logo}
-                                title={data.title}
-                                descrip={data.descrip}
-                            />
-                        ))}
-                    </div>
+                <h2 className="whyme-title">{title}</h2>
+                <div className="whyme-container" id="whyme-container">
+                    {reason.map((data, index) => (
+                        <Reason
+                            key={index}
+                            logo={data.logo}
+                            title={data.title}
+                            descrip={data.descrip}
+                        />
+                    ))}
                 </div>
             </div>
         </>

@@ -1,25 +1,43 @@
-
-
 .reason-container{
+    margin: 20px;
     text-align: center;
-    margin: 15px
+}
+
+.reason-container:hover {
+    color: #da2ca5;
+    transition: .5s;
 }
 
 .logo{
-    width: 100px;
-    height: 100px;
-    margin: 15px;
-
+    width: 90px;
+    height: 90px;
+    margin: 10px;
 }
 
 .title{
-    color: #30B2DC;
-    font-weight: bold;
-    letter-spacing: 1px;
+    font-weight: 600;
+}
+.descrip{
+    max-width: 230px;
 }
 
-.descrip{
-    margin: 15px;
-    max-width: 200px;
-    color: #30B2DC;
+
+@media screen and (max-width: 500px) {
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    .reason-container{
+        margin: 30px;
+    }
+    .logo{
+        width: 120px;
+        height: 120px;
+        margin: 15px;
+    }
 }

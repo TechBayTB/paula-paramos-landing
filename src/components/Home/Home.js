@@ -15,7 +15,7 @@ const Home = () => {
                 <div className="home">
                     <h2 className="home-title">{language === LanguageTypes.SPANISH ? HomeSpanish.h2 : HomeEnglish.h2}</h2>
                     <button class="home-button">
-                        <span id="home-button">Contáctame!</span>
+                        <span id="home-button">CONTÁCTAME!</span>
                     </button>
                 </div>
             </div>

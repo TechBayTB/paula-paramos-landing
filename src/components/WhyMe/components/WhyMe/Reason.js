@@ -10,7 +10,6 @@ const Reason = ({logo,title,descrip}) => {
         <>
             
             <div className="reason-container">
-                {/* <img className="education-pic" src={require('../../../../assets/education.png')} alt='logo' /> */}
                 <img src={require(`../../../../assets/${logo}`)} alt="logo" className="logo"/>
                 <p className="title">{title}</p>
                 <p className="descrip">{descrip}</p>
