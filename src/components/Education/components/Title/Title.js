@@ -10,9 +10,9 @@ const Title = ({title, titledesc, year}) => {
         <>
             <div className="education-title">
                 <img className="education-pic" src={require('../../../../assets/education.png')} alt='logo' />
-                <p>{title}</p>
-                <p>{titledesc}</p>
-                <p>{year}</p>
+                <p className="titulo">{title}</p>
+                <p className="texto">{titledesc}</p>
+                <p className="texto">{year}</p>
             </div>
         </>
     );

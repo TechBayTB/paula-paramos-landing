@@ -1,10 +1,35 @@
 .education-title{
-    text-align: center;
+    color: #ffffff;
     display: flex;
     align-items: center;
-    color: #ffffff;
     flex-flow: column;
-    gap: 20px;
-    width: 280px;
-    justify-content: space-around;
+    text-align: center;
+    font-weight: 600;
+}
+
+.education-pic {
+    padding-bottom: 10px;
+    width: 40px;
+}
+
+.titulo {
+    font-size: 16px;
+}
+
+.texto {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+@media screen and (min-width: 1025px) {
+    .education-pic {
+        width: 45px;
+    }
+    .titulo {
+        font-size: 20px;
+    }
+    .texto {
+        font-size: 16px;
+    }
 }

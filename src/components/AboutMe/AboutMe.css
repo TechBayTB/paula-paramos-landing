@@ -12,7 +12,6 @@
 }
 
 .about-me-title h2{
-    width: 0;
     font-size: 50px;
     font-weight: 900;
     margin: 0;
@@ -46,9 +45,6 @@
     }
     .about-me-pic{
         height: 250px;
-    }
-    .about-me-title h2{
-        text-align: center;
     }
     .about-me-title p{
         width: 350px;

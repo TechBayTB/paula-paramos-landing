@@ -10,9 +10,9 @@ const Education = () => {
 
     // Crear un array de datos para cada instancia de Title
     const titlesData = [
-        { title: "Traductora Literaria y Técnico-Científica", titledesc: "Inglés / Español", year: "2002" },
-        { title: "Profesora de Inglés", titledesc: "-", year: "2002"  },
-        { title: "Traductora Pública ", titledesc: "Inglés / Español", year: "2002" },
+        { title: 'Traductora Literaria y\n Técnico - Científica', titledesc: "Inglés - Español", year: "2002" },
+        { title: 'Profesora\n Competente', titledesc: "Inglés", year: "2004"  },
+        { title: 'Traductora\n Pública', titledesc: "Inglés - Español", year: "2007" },
     ];
 
     
