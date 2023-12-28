@@ -1,52 +1,109 @@
 .AboutMe{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-flow: column;
-    background-position: 1px;
-    max-width: 1024px;
+    height: 80vh;
     margin: 0 auto;
-}
-
-.about-me-background{
     display: flex;
-    justify-content: space-between;
 }
-
-.about-me-pic{
-    max-height: 368px;
-    max-width: 556px;
-}
-
 
 .about-me-title{
     color: #30B2DC;
     display: flex;
     flex-flow: column;
-    gap: 20px;
+    gap: 25px;
 }
 
 .about-me-title h2{
-    font-size: 60px;
-    font-weight: bolder;
+    width: 0;
+    font-size: 50px;
+    font-weight: 900;
     margin: 0;
 }
 
 .about-me-title h3{
-    font-size: 40px;
-    font-weight: lighter;
+    font-size: 35px;
+    font-weight: 600;
     margin: 0;
 }
 
 .about-me-title p{
-    white-space: pre-line;
+    text-align: justify;
 }
 
-@media (max-width: 700px){
-    .about-me-background{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        flex-flow: column;
+.about-me-title h2:hover,
+.about-me-title h3:hover,
+.about-me-title p:hover {
+    color: #da2ca5;
+    transition: .5s;
+}
+
+@media screen and (max-width: 500px) {
+    .AboutMe{
+        height: 85vh;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .about-me-pic{
+        height: 250px;
+    }
+    .about-me-title h2{
+        text-align: center;
+    }
+    .about-me-title p{
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .AboutMe{
+        height: 120vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about-me-pic{
+        height: 250px;
+    }
+    .about-me-title h2{
+        text-align: center;
+    }
+    .about-me-title p{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .AboutMe{
+        padding-left: 30px;
+        justify-content: space-between;
+    }
+    .about-me-pic{
+        margin-top: 170px;
+        height: 250px;
+    }
+    .about-me-title p{
+        width: 345px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .AboutMe{
+        max-width: 1024px;
+        justify-content: space-between;
+    }
+    .about-me-pic{
+        margin-top: 170px;
+        height: 315px;
+    }
+    .about-me-title h2{
+        font-size: 60px;
+    }
+    .about-me-title h3{
+        font-size: 40px;
+    }
+    .about-me-title p{
+        width: 392px;
     }
 }
