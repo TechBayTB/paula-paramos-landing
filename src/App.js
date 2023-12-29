@@ -7,6 +7,7 @@ import Comments from './components/Comments/Comments';
 import WhyMe from './components/WhyMe/WhyMe';
 import Translation from './components/Translation/Translation';
 import DigitalSignature from './components/DigitalSignature/DigitalSignature';
+import Courses from './components/Courses/Courses';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Comments />
       <Translation />
       <DigitalSignature />
+      <Courses/>
     </LanguageContextProvider>
   );
 }
