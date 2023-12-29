@@ -1,14 +1,41 @@
 .message-container{
-    text-align: center;
+    height: 75%;
     display: flex;
-    align-items: center;
-    color: #ffffff;
-    flex-flow: column;
-    /* gap: 20px; */
-    /* width: px; */
+    flex-direction: column;
     justify-content: space-around;
+    text-align: center;
 }
 
-.name{
-    font-size: large;
+.comment {
+    font-size: 14px;
+}
+.name {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 500px) {
+    .message-container{
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .message-container{
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .comment {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .comment {
+        font-size: 16px;
+    }
+    .name {
+        font-size: 20px;
+    }
 }

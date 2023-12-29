@@ -1,24 +1,36 @@
 .Comments{
-    width: 100%;
-    /* display: flex; */
-    background-position: 1px;
+    height: 30vh;
+    display: flex;
+    color : #ffffff;
     background-color: #30B2DC;
 }
 
 .comments-container{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    max-width: 1024px;
+    justify-content: space-around;
+    align-items: center;
     margin: 0 auto;
-    /* gap: 30px; */
-    padding-top: 50px;
 }
 
 button{
-    margin: 50px;
     border: none;
     background: none;
     cursor: pointer;
     color : #ffffff;
     font-size: large;
+}
+
+
+@media screen and (max-width: 500px) {
+    .Comments{
+        height: 22vh;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .comments-container{
+        justify-content: space-between;
+        max-width: 1024px;
+    }
 }
