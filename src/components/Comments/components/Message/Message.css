@@ -9,9 +9,11 @@
 .comment {
     font-size: 14px;
 }
+
 .name {
     font-size: 16px;
 }
+
 
 @media screen and (max-width: 500px) {
     .message-container{
@@ -33,7 +35,7 @@
 
 @media screen and (min-width: 1025px) {
     .comment {
-        font-size: 16px;
+        font-size: 17px;
     }
     .name {
         font-size: 20px;
