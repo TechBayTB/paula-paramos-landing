@@ -25,7 +25,7 @@
 }
 
 
-@media screen and (max-width: 539.9px) {
+@media screen and (max-width: 599.9px) {
     .WhyMe{
         height: 1800px;
         gap: 20px;
@@ -35,7 +35,7 @@
     }
 }
 
-@media screen and (min-width: 540px) and (max-width: 809.9px) {
+@media screen and (min-width: 600px) and (max-width: 899.9px) {
     .WhyMe{
         height: 1000px;
         gap: 15px;
@@ -45,9 +45,9 @@
     }
 }
 
-@media screen and (min-width: 810px) and (max-width: 1024px) {
+@media screen and (min-width: 900px) and (max-width: 1024px) {
     .WhyMe{
-        height: 750px;
+        height: 775px;
         gap: 20px;
     }
     .whyme-container{
