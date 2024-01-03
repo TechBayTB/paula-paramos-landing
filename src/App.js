@@ -8,6 +8,7 @@ import WhyMe from './components/WhyMe/WhyMe';
 import Translation from './components/Translation/Translation';
 import DigitalSignature from './components/DigitalSignature/DigitalSignature';
 import Courses from './components/Courses/Courses';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
       <WhyMe />
       <Comments />
       <Translation />
-      <DigitalSignature />
       <Courses/>
+      <DigitalSignature />
+      <Contact />
     </LanguageContextProvider>
   );
 }

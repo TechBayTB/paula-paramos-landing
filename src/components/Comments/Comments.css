@@ -1,8 +1,8 @@
 .Comments{
     height: 30vh;
     display: flex;
-    color : #ffffff;
-    background-color: #30B2DC;
+    color : #2A2A2B;
+    background-color: #F1FCFF;
 }
 
 .comments-container{
@@ -17,8 +17,13 @@ button{
     border: none;
     background: none;
     cursor: pointer;
-    color : #ffffff;
+    color : #3CA7C5;
     font-size: large;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
 }
 
 

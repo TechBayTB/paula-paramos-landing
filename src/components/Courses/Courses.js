@@ -16,6 +16,10 @@ const Courses = () => {
     return (
         <>
             <div className="Courses" id="Courses">
+                <div className="courses-img-container">
+                    <img src={require(`../../assets/Captura_de_pantalla_2023-12-14_171802.png`)} alt="img-courses" className="img-courses"/>
+                    <button className="couses-btn">{language === LanguageTypes.SPANISH ? "Contáctame" : "Contact me"}</button>
+                </div>
                 <div className="courses-text-container">
                     <h2 className="h2-courses">{language === LanguageTypes.SPANISH ? "Cursos de Inglés - Español" : "English courses - Spanish"}</h2>
                     {translation.map((translationTextES) => (
@@ -23,10 +27,6 @@ const Courses = () => {
                             text={translationTextES.text}
                         />   
                     ))}
-                </div>
-                <div className="courses-img-container">
-                    <img src={require(`../../assets/Captura_de_pantalla_2023-12-14_171802.png`)} alt="img-courses" className="img-courses"/>
-                    <button className="couses-btn">{language === LanguageTypes.SPANISH ? "Contáctame" : "Contact me"}</button>
                 </div>
             </div>
         </>
