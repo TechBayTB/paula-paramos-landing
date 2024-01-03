@@ -1,7 +1,7 @@
 export const CoursesTextES= [
     {text: '"El arte de enseñar un idioma es como dirigir una sinfonía, donde cada palabra es una nota que contribuye a la melodía del entendimiento.”'},
     {text: 'Desde 1997, mi misión es ayudar a mis alumnos a alcanzar su máximo potencial.'},
-    {text: "Textos relacionados a psicología, turismo, bienestar general, desarrollo personal, literatura y marketing."},
+    {text: "Enseñanza exclusivamente de modalidad virtual para todos los niveles, tanto para adolescentes como para adultos."},
 ];
 
 export const CoursesTextEN= [

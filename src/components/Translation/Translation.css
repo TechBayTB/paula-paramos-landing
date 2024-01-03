@@ -131,22 +131,19 @@
         text-align: center;
     }
     .flex {
-        height: 675px;
+        height: 725px;
         align-items: center;
         flex-direction: column;
     }
-    .translation-text-container{
-        padding-right: 50px;
-    }
     .img-translation{
         width: 350px;
-        padding: 60px 0px;
+        padding: 80px 0px;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .Translation {
-        padding: 50px 0px 0px 30px;
+        padding: 50px 30px 0px;
         height: 600px;
     }
     .translation-text-container{
