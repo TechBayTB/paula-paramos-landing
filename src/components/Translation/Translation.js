@@ -16,17 +16,19 @@ const Translation = () => {
     return (
         <>
             <div className="Translation" id="Translation">
-                <div className="translation-text-container">
-                    <h2 className="h2-translations">{language === LanguageTypes.SPANISH ? "Traducciones" : "Translations"}</h2>
-                    {translation.map((translationTextES) => (
-                        <TranslationsText
-                            text={translationTextES.text}
-                        />   
-                    ))}
-                </div>
-                <div className="translate-img-container">
-                    <img src={require(`../../assets/traducciones.jpg`)} alt="img-translation" className="img-translation"/>
-                    <button className="translate-btn">{language === LanguageTypes.SPANISH ? "Contáctame" : "Contact me"}</button>
+                <h2 className="h2-translations">{language === LanguageTypes.SPANISH ? "Traducciones" : "Translations"}</h2>
+                <div className="flex">
+                    <div className="translation-text-container">
+                        {translation.map((translationTextES) => (
+                            <TranslationsText
+                                text={translationTextES.text}
+                            />   
+                        ))}
+                    </div>
+                    <div className="translate-img-container">
+                        <img src={require(`../../assets/traducciones.jpg`)} alt="img-translation" className="img-translation"/>
+                        <button className="button">{language === LanguageTypes.SPANISH ? "CONTÁCTAME" : "CONTACT ME"}</button>
+                    </div>
                 </div>
             </div>
         </>

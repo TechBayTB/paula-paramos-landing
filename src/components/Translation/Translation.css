@@ -1,43 +1,170 @@
 .Translation {
-    width: 100%;
-    background-position: 1px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-}
-.h2-translations{
+    padding-top: 30px;
     color: #30B2DC;
 }
 
-
-.translation-text-container{
-    width: 500px;
+.flex {
+    height: 375px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
+.translation-text-container{
+    height: 100%;
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.h2-translations{
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 
 .translate-img-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
 }
 
-.translate-btn{
-    width: 200px;
+.button {
+    margin: 0;
+    width: 175px;
     height: 50px;
-    background-color: #30B2DC;
-    border: none;
-    border-radius: 5px;
+    display: inline-block;
+    position: relative;
     color: white;
-    font-size: 20px;
-    margin-top: 20px;
+    background-color: #30B2DC;
     cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+.button::before, .button::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+}
+.button:hover::before, .button:hover::after{
+    width: 100%;
 }
 
-.img-translation{
-    width: 250px;
+.button:hover span::before, .button:hover span::after{
+    height: 100%;
+}
+
+.button::before, .button::after{
+    transition-delay: 0.2s;
+}
+
+.button span::before, .button span::after{
+    transition-delay: 0s;
+}
+
+.button::before{
+    right: 0;
+    top: 0;
+}
+
+.button::after{
+    left: 0;
+    bottom: 0;
+}
+
+.button span::before{
+    left: 0;
+    top: 0;
+}
+
+.button span::after{
+    right: 0;
+    bottom: 0;
+}
+
+.button:hover::before, .button:hover::after{
+    transition-delay: 0s;
+}
+
+.button:hover span::before, .button:hover span::after{
+    transition-delay: 0.2s;
+}
+
+.button:hover{
+    background-color: white;
+    color: #da2ca5;
+    border: 1px solid #da2ca5;
+    transition: 1s;
+}
+
+
+@media screen and (max-width: 500px) {
+    .Translation {
+        height: 925px;
+        text-align: center;
+    }
+    .flex {
+        height: 725px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .translation-text-container{
+        width: 350px;
+    }
+    .img-translation{
+        width: 350px;
+        padding: 60px 0px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .Translation {
+        height: 875px;
+        text-align: center;
+    }
+    .flex {
+        height: 675px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .translation-text-container{
+        padding-right: 50px;
+    }
+    .img-translation{
+        width: 350px;
+        padding: 60px 0px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Translation {
+        padding: 50px 0px 0px 30px;
+        height: 600px;
+    }
+    .translation-text-container{
+        padding-right: 50px;
+    }
+    .img-translation{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .Translation {
+        margin: 0 auto;
+        padding-top: 50px;
+        height: 575px;
+        max-width: 1024px;
+    }
+    .img-translation{
+        width: 450px;
+    }
 }
