@@ -2,6 +2,7 @@
     color: #ffffff;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-flow: column;
     text-align: center;
     font-weight: 600;
@@ -21,6 +22,12 @@
     font-weight: 500;
 }
 
+
+@media screen and (min-width: 769px) {
+    .education-title{
+        width: 200px;
+    }
+}
 
 @media screen and (min-width: 1025px) {
     .education-pic {

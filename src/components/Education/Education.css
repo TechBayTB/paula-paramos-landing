@@ -1,5 +1,4 @@
 .Education{
-    height: 55vh;
     display: flex;
     align-items: center;
     background-color: #30B2DC;
@@ -7,7 +6,6 @@
 
 .education-background{
     margin: 0 auto;
-    padding-top: 20px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -17,7 +15,7 @@
 
 @media screen and (max-width: 500px) {
     .Education{
-        height: 95vh;
+        height: 950px;
     }
     .education-background{
         height: 100%;
@@ -27,7 +25,7 @@
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
     .Education{
-        height: 130vh;
+        height: 950px;
     }
     .education-background{
         height: 100%;
@@ -37,12 +35,14 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .education-background{
+        height: 350px;
         justify-content: space-around;
     }
 }
 
 @media screen and (min-width: 1025px) {
     .education-background{
+        height: 400px;
         justify-content: space-between;
         max-width: 1024px;
     }
