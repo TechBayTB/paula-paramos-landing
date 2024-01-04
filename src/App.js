@@ -9,6 +9,7 @@ import Translation from './components/Translation/Translation';
 import DigitalSignature from './components/DigitalSignature/DigitalSignature';
 import Courses from './components/Courses/Courses';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Courses/>
       <DigitalSignature />
       <Contact />
+      <Footer />
     </LanguageContextProvider>
   );
 }
