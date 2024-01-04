@@ -16,7 +16,7 @@ const Translation = () => {
     return (
         <>
             <div className="Translation" id="Translation">
-                <h2 className="h2-translations">{language === LanguageTypes.SPANISH ? "Traducciones" : "Translations"}</h2>
+                <h2 className="h2-translations rosa">{language === LanguageTypes.SPANISH ? "Traducciones" : "Translations"}</h2>
                 <div className="flex">
                     <div className="translation-text-container">
                         {translation.map((translationTextES) => (
