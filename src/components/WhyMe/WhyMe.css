@@ -22,33 +22,34 @@
 .whyme-container{
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
 }
 
 
-@media screen and (max-width: 539.9px) {
+@media screen and (max-width: 574.9px) {
     .WhyMe{
-        height: 1800px;
-        gap: 20px;
+        height: 1950px;
+        gap: 60px;
     }
     .whyme-container{
         justify-content: space-around;
     }
 }
 
-@media screen and (min-width: 540px) and (max-width: 809.9px) {
+@media screen and (min-width: 575px) and (max-width: 869.9px) {
     .WhyMe{
-        height: 1000px;
-        gap: 15px;
+        height: 1150px;
+        gap: 70px;
     }
     .whyme-container{
         justify-content: space-around;
     }
 }
 
-@media screen and (min-width: 810px) and (max-width: 1024px) {
+@media screen and (min-width: 870px) and (max-width: 1024px) {
     .WhyMe{
-        height: 750px;
-        gap: 20px;
+        height: 825px;
+        gap: 60px;
     }
     .whyme-container{
         justify-content: space-around;
@@ -57,8 +58,8 @@
 
 @media screen and (min-width: 1025px) {
     .WhyMe{
-        height: 900px;
-        gap: 20px;
+        height: 850px;
+        gap: 50px;
     }
     .whyme-container{
         justify-content: space-between;

@@ -17,18 +17,16 @@ const Contact = () => {
     return (
         <>
             <div className="contact" id="contact">
-            <h2 className="section-tittle">{title}</h2>
-            <div class="section-tittle-design"></div>
-      
-            <div id="form-container">
-                <div id="form-contact">
-                    <input class="input" id="name" type="text"  placeholder="Nombre" required></input>
-                    <input class="input" id="email" type="email"  placeholder="Email" required></input>
-                    <input class="input" id="text" type="text"  placeholder="Ingrese su comentario"></input>
-                    <button class="btnform input" id="form_btn">Enviar</button>
-                    <p id="form-mensaje-alert"> </p>
+                <h2 className="whyme-title rosa">{title}</h2>
+                <div id="form-container">
+                    <div id="form-contact">
+                        <input className="contact-inputs" id="name" type="text"  placeholder="Nombre" required></input>
+                        <input className="contact-inputs" id="email" type="email"  placeholder="Email" required></input>
+                        <input className="contact-inputs" id="text" type="text"  placeholder="Ingrese su comentario"></input>
+                        <button className="button btn-form">{language === LanguageTypes.SPANISH ? "ENVIAR" : "SUBMIT"}</button>
+                        <p id="form-mensaje-alert"> </p>
+                    </div>
                 </div>
-            </div>
             </div>
         </>
     );

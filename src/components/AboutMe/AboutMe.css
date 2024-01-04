@@ -26,9 +26,7 @@
     text-align: justify;
 }
 
-.about-me-title h2:hover,
-.about-me-title h3:hover,
-.about-me-title p:hover {
+.rosa:hover {
     color: #da2ca5;
     transition: .5s;
 }
