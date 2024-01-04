@@ -14,9 +14,9 @@ const Footer = () => {
         <>
             <footer class="footer">
                 <div class="footer-top">
-                    <img class="img-footer" src={require(`../../assets/ctpi.png`)}></img>
-                    <img class="img-footer" src={require(`../../assets/image 3.png`)}></img>
-                    <img class="img-footer" src={require(`../../assets/logo_HEADER.png`)}></img>
+                    <img class="img-footer" src={require(`../../assets/matricula1.jpg`)}></img>
+                    <img class="img-footer" src={require(`../../assets/matricula2.jpg`)}></img>
+                    <img class="img-footer" src={require(`../../assets/matricula3.jpg`)}></img>
                 </div>
                 <div class="main-footer">
                     <div class="footer-left">
