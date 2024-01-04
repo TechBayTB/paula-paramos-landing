@@ -87,7 +87,7 @@
         display: none;
     }
     .Courses {
-        padding: 50px 30px 0px;
+        padding: 40px 30px 0px;
         height: 700px;
     }
     .courses-text-container{
@@ -104,7 +104,7 @@
     }
     .Courses {
         margin: 0 auto;
-        padding-top: 100px;
+        padding-top: 60px;
         height: 700px;
         max-width: 1024px;
     }

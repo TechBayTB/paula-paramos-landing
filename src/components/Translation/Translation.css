@@ -1,5 +1,5 @@
 .Translation {
-    padding-top: 30px;
+    padding-top: 40px;
     color: #30B2DC;
 }
 
@@ -157,7 +157,7 @@
 @media screen and (min-width: 1025px) {
     .Translation {
         margin: 0 auto;
-        padding-top: 50px;
+        padding-top: 60px;
         height: 575px;
         max-width: 1024px;
     }
