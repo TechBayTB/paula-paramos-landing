@@ -12,9 +12,9 @@ const AboutMe = () => {
                 <div className="about-me-title">
                     <h2 className="rosa">{language === LanguageTypes.SPANISH ? AboutMeSpanish.h2 : AboutMeEnglish.h2}</h2>
                     <h3 className="rosa">{language === LanguageTypes.SPANISH ? AboutMeSpanish.h3 : AboutMeEnglish.h3}</h3>
-                    <p className="rosa">{language === LanguageTypes.SPANISH ? AboutMeSpanish.p : AboutMeEnglish.p}</p>
-                    <p className="rosa">{language === LanguageTypes.SPANISH ? AboutMeSpanish.p2 : AboutMeEnglish.p2}</p>
-                    <p className="rosa">{language === LanguageTypes.SPANISH ? AboutMeSpanish.p3 : AboutMeEnglish.p3}</p>
+                    <p>{language === LanguageTypes.SPANISH ? AboutMeSpanish.p : AboutMeEnglish.p}</p>
+                    <p>{language === LanguageTypes.SPANISH ? AboutMeSpanish.p2 : AboutMeEnglish.p2}</p>
+                    <p>{language === LanguageTypes.SPANISH ? AboutMeSpanish.p3 : AboutMeEnglish.p3}</p>
                 </div>
                 <img className="about-me-pic" src={require('../../assets/about-me-pic.png')} alt='logo' />
             </div>

@@ -6,7 +6,7 @@ const TranslationsText = ({text}) => {
 
     return (
         <>
-            <p className="translation-text rosa">{text}</p>
+            <p className="translation-text">{text}</p>
         </>
     );
 }

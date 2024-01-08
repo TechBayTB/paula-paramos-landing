@@ -6,7 +6,7 @@ const CoursesText = ({text}) => {
 
     return (
         <>
-            <p className="courses-text rosa">{text}</p>
+            <p className="courses-text">{text}</p>
         </>
     );
 }
