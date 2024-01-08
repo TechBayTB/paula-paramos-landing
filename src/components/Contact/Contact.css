@@ -25,16 +25,17 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  padding: 25px;
 }
 
 #form-contact .contact-inputs {
   border: 1px solid #3CA7C5;
   padding: 10px;
-  margin: 20px 25px;
 }
 
-#form-contact #name {
-  margin-top: 30px;
+.contact-inputs{
+  margin-top: 25px;
+  margin-bottom: 3px;
 }
 
 #form-contact #text {
@@ -49,14 +50,24 @@
   right: 25px;
   left: 5;
   bottom: 25px;
+  display: flex;
+  justify-content: center;
 }
 
-/* #form-container p{
-  position: absolute;
-  width: 100%;
-  top: 70%;
-}   */
+.inputs {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
 
+.btn-form button{
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.btn-form button:hover{
+  color: #da2ca5;
+}
 
 @media screen and (max-width: 500px) {
   #form-container{

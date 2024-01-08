@@ -6,7 +6,7 @@ import Education from './components/Education/Education';
 import Comments from './components/Comments/Comments';
 import WhyMe from './components/WhyMe/WhyMe';
 import Translation from './components/Translation/Translation';
-import DigitalSignature from './components/DigitalSignature/DigitalSignature';
+import Info from './components/Info/Info';
 import Courses from './components/Courses/Courses';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
@@ -22,7 +22,7 @@ function App() {
       <Comments />
       <Translation />
       <Courses/>
-      <DigitalSignature />
+      <Info />
       <Contact />
       <Footer />
     </LanguageContextProvider>

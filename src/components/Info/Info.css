@@ -1,0 +1,13 @@
+.info-container{
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9ec;
+    padding: 50px 0px;
+}
+
+.info{
+    display: flex;
+    max-width: 1024px;
+    width: 100%;
+    justify-content: space-around;
+}
