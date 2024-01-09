@@ -133,13 +133,13 @@ const Contact = () => {
                                     </>
                                     }
                                 </div>
-                                <div className='button btn-form'>
+                                <div>
                                     {loading ?
-                                    <button type='submit' disabled>
+                                    <button type='submit' disabled className='button btn-form'>
                                         {language === LanguageTypes.SPANISH ? 'Enviar' : 'Send'}
                                     </button>
                                     :
-                                    <button type='submit' >
+                                    <button type='submit' className='button btn-form'>
                                         {language === LanguageTypes.SPANISH ? 'Enviar' : 'Send'}
                                     </button>
                                     }

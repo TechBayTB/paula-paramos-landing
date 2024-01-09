@@ -1,17 +1,15 @@
 .message-container{
     width: 85%;
     height: 75%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-
     border-radius: 30px;
-    border: 4px solid #FFF;
-
-    background: #FFF;
-
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 3px solid #FFF;
+    background: #3CA7C5;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25);
 }
 
 .comment {
@@ -19,12 +17,12 @@
     font-style: normal;
     line-height: normal;
     letter-spacing: 0.6px;
-    
+    padding: 10px 20px;
 }
 
 .name {
     font-size: 16px;
-    color: #3CA7C5;
+    color: white;
     font-size: 40px;
     font-weight: 600;
     line-height: normal;

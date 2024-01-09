@@ -79,11 +79,11 @@ const Comments = () => {
     <>
       <div className="Comments" id="Comments">
         <div className="comments-container">
-          <button onClick={() => setCurrentIndex((prevIndex) => (prevIndex - 1 + titlesData.length) % titlesData.length)}>
+          <button className="comments-button" onClick={() => setCurrentIndex((prevIndex) => (prevIndex - 1 + titlesData.length) % titlesData.length)}>
             &lt;
           </button>
           <Message comment={titlesData[currentIndex].comment} name={titlesData[currentIndex].name} />
-          <button onClick={() => setCurrentIndex((prevIndex) => (prevIndex + 1) % titlesData.length)}>&gt;</button>
+          <button className="comments-button" onClick={() => setCurrentIndex((prevIndex) => (prevIndex + 1) % titlesData.length)}>&gt;</button>
         </div>
         <div className="indicators-container">
           {titlesData.map((_, index) => (

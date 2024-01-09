@@ -1,8 +1,7 @@
 .Comments{
     height: 30vh;
     /* display: flex; */
-    color : #2A2A2B;
-    background-color: #F1FCFF;
+    color : white;
 }
 
 .comments-container{
@@ -13,29 +12,29 @@
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    
 }
 
 
 .indicators-container {
-  display: flex;
-  justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .indicator {
-  width: 10px;
-  height: 10px;
-  background-color: #ddd;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
+    width: 10px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
 }
 
 .active {
-  background-color: #3498db;
+    background-color: #3498db;
 }
 
-button{
+.comments-button {
     border: none;
     background: none;
     cursor: pointer;
