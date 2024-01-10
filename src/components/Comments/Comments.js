@@ -50,24 +50,15 @@ import LanguageContext from "../../Context/Language";
 import { LanguageTypes } from "../Types/LanguageTypes";
 import "./Comments.css";
 import Message from "./components/Message/Message";
+import { titlesDataEsp, titlesDataEnglish } from "./CommentsText";
 
 const Comments = () => {
   const { language } = useContext(LanguageContext);
 
-  const titlesData = [
-    {
-      comment: '"Los servicios de traducción provistos son de gran calidad y eficiencia. Muy recomendable"',
-      name: "Leticia Arena",
-    },
-    {
-      comment: '"Excelente servicio, muy profesional y eficiente. Muy recomendable"',
-      name: "María Laura",
-    },
-    {
-      comment: '"Muy buena atención y servicio. Muy recomendable"',
-      name: "Ricasa S.A.",
-    },
-  ];
+
+
+  let titlesData = (language === LanguageTypes.SPANISH) ? titlesDataEsp : titlesDataEnglish;
+
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

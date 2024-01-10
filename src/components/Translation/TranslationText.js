@@ -1,14 +1,20 @@
 export const translationsTextES= [
-    {text: '"El traductor es un arquitecto de puentes entre mundos, un constructor de conexiones que une a la humanidad a través de las palabras." - Haruki Murakami'},
-    {text: "Desde 2002, realizo traducciones del Inglés al Español y del Español al Inglés sobre:"},
-    {text: "Documentaciones técnicas, personales, judiciales y académicas."},
-    {text: "Textos sobre psicología, turismo, bienestar general, desarrollo personal, literatura y marketing."},
+    {text: '“La traducción es lo que transforma todo para que nada cambie”. – Günter  Grass'},
+    {text: "Desde el año 2002, me desempeño como traductora independiente y mi experiencia abarca una amplia variedad de textos:"},
+    {text: "Documentos personales: certificados de nacimiento, pasaportes."},
+    {text: "Documentos académicos: certificados analíticos, diplomas."},
+    {text: "Documentos legales: contratos, poderes."},
+    {text: "Documentos técnicos y científicos: manuales, tesis."},
+    {text: "También realizo traducciones de textos relacionados con psicología, turismo, bienestar general, desarrollo personal, literatura y marketing."},
 ];
 
 export const translationsTextEN= [
-    {text: '"El traductor es un arquitecto de puentes entre mundos, un constructor de conexiones que une a la humanidad a través de las palabras." - Haruki Murakami'},
-    {text: "I do translations from English to Spanish and from Spanish to English."},
-    {text: "Technical, personal, judicial and academic documentation."},
-    {text: "Texts related to psychology, tourism, general well-being, personal development, literature and marketing."},
+    {text: '“Translation is that with transforms everything so that nothing changes.” – Günter  Grass '},
+    {text: "Since 2002, I have been dedicated to independent translation, with expertise in a diverse range of texts:"},
+    {text: "Personal Documents: birth certificates, passports."},
+    {text: "Academic Documents: academic transcripts, diplomas."},
+    {text: "Legal Documents: agreements, powers-of-attorneys."},
+    {text: "Technical and Scientific Documents: manuals, theses."},
+    {text: "Additionally, I work with texts related to psychology, tourism, general well-being, personal development, literature, and marketing."},
 ];
 

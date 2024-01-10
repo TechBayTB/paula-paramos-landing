@@ -31,7 +31,7 @@ const Footer = () => {
                                 <h2 class="footer-titles" id="h2_footer_resources">RECURSOS</h2>
                                 <ul class="footer-box">
                                     <li><button onClick={() => handleNavigation('service')}>Traducciones</button></li>
-                                    <li><button onClick={() => handleNavigation('service')} >Cursosos</button></li>
+                                    <li><button onClick={() => handleNavigation('service')} >Cursos</button></li>
                                     <li><button onClick={() => handleNavigation('service')}>Firma Digital</button></li>
                                 </ul>
                             </li>
