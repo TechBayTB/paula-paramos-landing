@@ -27,14 +27,28 @@
   padding: 25px;
 }
 
-#form-contact .contact-inputs {
+.contact-inputs{
   border: 1px solid #3CA7C5;
   padding: 10px;
+  margin: 25px 0px 3px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-family: 'Montserrat';
 }
 
-.contact-inputs{
-  margin-top: 25px;
-  margin-bottom: 3px;
+.contact-inputs::placeholder {
+  color: rgb(0, 0, 25);
+}
+
+.contact-inputs:focus {
+  color: white;
+  background-color: #3CA7C5;
+  transition: 1s;
+}
+
+.contact-inputs:focus::placeholder {
+  color: white;
+  transition: 1s;
 }
 
 #form-contact #text {

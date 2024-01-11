@@ -23,12 +23,12 @@ const Footer = () => {
                 <div class="main-footer-container">
                     <div class="main-footer">
                         <div class="footer-left">
-                            <h2>Paula Paramos</h2>
+                            <h2>PAULA PÁRAMOS</h2>
                             <p id="p-footer">{language === LanguageTypes.SPANISH ? FooterSpanish.text : FooterEnglish.text}</p>
                         </div>
                         <ul class="footer-right">
                             <li>
-                                <h2 class="footer-titles" id="h2_footer_resources">RECURSOS</h2>
+                                <h2 class="footer-titles" id="h2_footer_resources">SERVICIOS</h2>
                                 <ul class="footer-box">
                                     <li><button onClick={() => handleNavigation('service')}>Traducciones</button></li>
                                     <li><button onClick={() => handleNavigation('service')} >Cursos</button></li>

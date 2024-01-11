@@ -4,7 +4,7 @@ export const titlesDataEsp = [
       name: "Adrian Saa",
     },
     {
-      comment: 'Paula es una de las personas más responsables que conozco y asume sus tareas con excelencia, respeto y compromiso”. ',
+      comment: '"Paula es una de las personas más responsables que conozco y asume sus tareas con excelencia, respeto y compromiso”. ',
       name: "Sofía Vilar Ragusa",
     },
     {
@@ -19,7 +19,7 @@ export const titlesDataEnglish = [
         name: "Adrian Saa",
     },
     {
-        comment: 'Paula is one of the most responsible individuals I know. She approaches her tasks with excellence, respect, and commitment”. ',
+        comment: '"Paula is one of the most responsible individuals I know. She approaches her tasks with excellence, respect, and commitment”. ',
         name: "Sofía Vilar Ragusa",
     },
     {
