@@ -39,9 +39,9 @@ const Contact = () => {
         text: ''
         },
         validate,
-        onSubmit: (values, { resetForm }) => {
+        onSubmit: async (values, { resetForm }) => {
         setLoading(true)
-        sendMail(values).then(() => setSend(true))
+        await sendMail(values).then(() => setSend(true))
 
         setTimeout(() => {
             setSend(false)
