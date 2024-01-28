@@ -2,20 +2,20 @@ import { useContext } from "react";
 import LanguageContext from "../../Context/Language";
 import { LanguageTypes } from "../Types/LanguageTypes";
 import './Info.css'
-import InfoBox from "./components/InfoBox/InfoBox";
+import InfoBox from "./components/Certification/Certification";
 import { reasonES, reasonEN } from "./InfoText";
+import Certification from "./components/Certification/Certification";
+import DigitalSignature from "./components/DigitalSignature/DigitalSignature";
 
 const Info = () => {
     const { language } = useContext(LanguageContext);
     
-    const logo = "nb"
-    const titlee = "hola"
     return (
         <>
             <div class="info-container">
                 <div className="info" id="Info">
-                    <InfoBox logo={logo} title={titlee}/>
-                    <InfoBox logo={logo} title={titlee}/>
+                    <DigitalSignature/>
+                    <Certification/>
                 </div>
             </div>
         </>

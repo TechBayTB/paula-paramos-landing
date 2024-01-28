@@ -1,21 +1,29 @@
 .info-box-container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     padding: 15px 25px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
     transition: all 0.3s ease 0s;  
-    height: 200px;
     width: 35%;
     height: 450px;
     border-bottom: 5px solid #30B2DC;
     background-color: #ffff;
+    color: #747474;
 }
 
 
-.logo{
-    width: 45px;
-    height: 45px;
-    margin: 10px;
+.check-icon{
+    width: 12px;
+    height: 12px;
+}
+
+.signature-icon{
+    width: 40px;
+    height: 40px;
 }
 
 .title{
@@ -23,18 +31,28 @@
     color: #282828;
 }
 
-.descrip{
-    max-width: 230px;
-    font-size: 16px;
-    color: #747474;
+
+
+.benefits-container{
+    display: flex;
+    flex-flow: column;
+    text-align: left;
 }
 
+.benefits-container p{
+    text-indent: 5%;
+    color: #747474;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.benefits-container p span{
+    padding-right: 5px;
+}
 
 @media screen and (max-width: 500px) {
-    .logo{
-        width: 45px;
-        height: 45px;
-        margin: 5px;
+    .info-box-container{
+        width: 80%;
     }
 }
 
@@ -42,10 +60,5 @@
 @media screen and (min-width: 1025px) {
     .reason-container{
         margin: 20px;
-    }
-    .logo{
-        width: 45px;
-        height: 45px;
-        margin: 15px;
     }
 }

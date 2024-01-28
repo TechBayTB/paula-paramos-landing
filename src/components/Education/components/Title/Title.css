@@ -11,6 +11,7 @@
 .education-pic {
     padding-bottom: 10px;
     width: 45px;
+    filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.305));
 }
 
 .titulo {
