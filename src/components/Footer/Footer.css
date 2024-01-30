@@ -27,6 +27,12 @@ background-color: white;
     justify-content: center;
 }
 
+@media screen and (max-width: 1023.9px) {
+    .footer-top {
+        flex-direction: column;
+    }
+}
+
 .footer-top {
     display: flex;
     justify-content: space-between;
@@ -35,7 +41,6 @@ background-color: white;
     align-items: center;
     padding: 50px 20px;
     max-width: 1024px;
-    flex-wrap: wrap;
 }
 
 .img-footer {

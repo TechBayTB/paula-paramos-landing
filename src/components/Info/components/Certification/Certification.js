@@ -12,7 +12,7 @@ const Certification = () => {
         <>
             <div className="certification-container">
                 <img src={certificationPic} alt="logo" className="certification-icon"/>
-                <h2 class="title">Certificacion</h2>
+                <h2 class="title">Certificación</h2>
                 <p>
                     Preparación de exámenes internacionales
                 </p>
