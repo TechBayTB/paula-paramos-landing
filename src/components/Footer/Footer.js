@@ -28,19 +28,19 @@ const Footer = () => {
                         </div>
                         <ul class="footer-right">
                             <li>
-                                <h2 class="footer-titles" id="h2_footer_resources">SERVICIOS</h2>
+                                <h2 class="footer-titles" id="h2_footer_us">SOBRE MÍ</h2>
                                 <ul class="footer-box">
-                                    <li><button onClick={() => handleNavigation('service')}>Traducciones</button></li>
-                                    <li><button onClick={() => handleNavigation('service')} >Cursos</button></li>
-                                    <li><button onClick={() => handleNavigation('service')}>Firma Digital</button></li>
+                                    <li><p onClick={() => handleNavigation('about-me')}>¿Quien Soy?</p></li>
+                                    <li><p onClick={() => handleNavigation('contact')}>Contactame</p></li>
                                 </ul>
                             </li>
                             <li>
-                                <h2 class="footer-titles" id="h2_footer_us">SOBRE MÍ</h2>
+                                <h2 class="footer-titles" id="h2_footer_resources">SERVICIOS</h2>
                                 <ul class="footer-box">
-                                    <li>
-                                        <button onClick={() => handleNavigation('about-me')}>¿Quien Soy?</button></li>
-                                    <li><button onClick={() => handleNavigation('contact')}>Contactame</button></li>
+                                    <li><p onClick={() => handleNavigation('service')}>Traducciones</p></li>
+                                    <li><p onClick={() => handleNavigation('service')} >Cursos</p></li>
+                                    <li><p onClick={() => handleNavigation('service')}>Firma Digital</p></li>
+                                    <li><p onClick={() => handleNavigation('service')}>Certificación</p></li>
                                 </ul>
                             </li>
                             <li>
@@ -50,7 +50,6 @@ const Footer = () => {
                                     <li><p >+54 9 11 3669-9874</p></li>
                                     <li><p>Paula Páramos</p></li>
                                     <li><p>Buenos Aires, Argentina</p></li>
-
                                 </ul>
                             </li>
                         </ul>
