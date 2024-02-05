@@ -1,7 +1,7 @@
 #contact {
   margin: 40px 30px;
   height: 600px;
-  color: #3CA7C5;
+  color: #30B2DC;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -52,7 +52,7 @@
 }
 
 #form-contact #text {
-  padding-bottom: 60px;
+  padding-bottom: 70px;
 }
 
 #form-contact .btn-form {
@@ -77,6 +77,8 @@
 .btn-form{
   color: #ffffff;
   font-size: 16px;  
+  background-color: #3CA7C5;
+  border: 1px solid black;
 }
 
 .btn-form:hover{

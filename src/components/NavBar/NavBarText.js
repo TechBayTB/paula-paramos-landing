@@ -5,12 +5,12 @@ export const NavBarSpanish = [
     },
     {
         text: 'Sobre Mi',
-        link: 'aboutme'
+        link: 'about-me'
 
     },
     {
         text: 'Servicios',
-        link: 'service'
+        link: 'Translation'
 
     },
     {
@@ -28,12 +28,12 @@ export const NavBarEnglish = [
     },
     {
         text: 'About Me',
-        link: 'aboutme'
+        link: 'about-me'
 
     },
     {
         text: 'Services',
-        link: 'service'
+        link: 'Translation'
 
     },
     {

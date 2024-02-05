@@ -12,7 +12,7 @@ const Info = () => {
     
     return (
         <>
-            <div class="info-container">
+            <div class="info-container" id="Firma">
                 <div className="info" id="Info">
                     <DigitalSignature/>
                     <Certification/>
