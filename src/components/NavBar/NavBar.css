@@ -95,6 +95,13 @@
     height: 100%;
 }
 
+.nav-info-responsive {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
 .toggle-responsive {
     position: relative;
     display: flex;

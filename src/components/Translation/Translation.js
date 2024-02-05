@@ -13,6 +13,10 @@ const Translation = () => {
     
     const translation = language === LanguageTypes.SPANISH ? translationsTextES : translationsTextEN;
 
+    const handleNavigation = (link) => {
+        document.getElementById(link).scrollIntoView({ behavior: "smooth" })
+    }
+
     return (
         <>
             <div className="Translation" id="Translation">
@@ -27,7 +31,7 @@ const Translation = () => {
                     </div>
                     <div className="translate-img-container">
                         <img src={require(`../../assets/traducciones.jpg`)} alt="img-translation" className="img-translation"/>
-                        <button className="button">{language === LanguageTypes.SPANISH ? "CONTÁCTAME" : "CONTACT ME"}</button>
+                        <button className="button" onClick={() => handleNavigation('contact')}>{language === LanguageTypes.SPANISH ? "CONTÁCTAME" : "CONTACT ME"}</button>
                     </div>
                 </div>
             </div>

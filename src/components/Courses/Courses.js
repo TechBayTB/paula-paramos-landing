@@ -13,6 +13,10 @@ const Courses = () => {
     
     const translation = language === LanguageTypes.SPANISH ? CoursesTextES : CoursesTextEN;
 
+    const handleNavigation = (link) => {
+        document.getElementById(link).scrollIntoView({ behavior: "smooth" })
+    }
+
     return (
         <>
             <div className="Courses" id="Courses">
@@ -20,7 +24,7 @@ const Courses = () => {
                 <div className="flex-courses">
                     <div className="courses-img-container">
                         <img src={require(`../../assets/Captura_de_pantalla_2023-12-14_171802.png`)} alt="img-courses" className="img-courses"/>
-                        <button className="button">{language === LanguageTypes.SPANISH ? "CONTÁCTAME" : "CONTACT ME"}</button>
+                        <button className="button" onClick={() => handleNavigation('contact')}>{language === LanguageTypes.SPANISH ? "CONTÁCTAME" : "CONTACT ME"}</button>
                     </div>
                     <div className="courses-text-container">
                         {translation.map((translationTextES) => (
@@ -43,7 +47,7 @@ const Courses = () => {
                     </div>
                     <div className="courses-img-container">
                         <img src={require(`../../assets/Captura_de_pantalla_2023-12-14_171802.png`)} alt="img-courses" className="img-courses"/>
-                        <button className="button">{language === LanguageTypes.SPANISH ? "CONTÁCTAME" : "CONTACT ME"}</button>
+                        <button className="button" onClick={() => handleNavigation('contact')}>{language === LanguageTypes.SPANISH ? "CONTÁCTAME" : "CONTACT ME"}</button>
                     </div>
                 </div>
             </div>
