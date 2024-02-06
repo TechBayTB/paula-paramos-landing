@@ -3,25 +3,23 @@ import LanguageContext from "../../../../Context/Language";
 import { LanguageTypes } from "../../../Types/LanguageTypes";
 import './Certification.css'
 import certificationPic from "../../../../assets/certification.svg"
-// import { EducationEnglish, EducationSpanish } from "./TitleText";
+import { certificationTextES, certificationTextEN } from "./CertificationText";
 
 const Certification = () => {
     const { language } = useContext(LanguageContext)
+
+    const translation = language === LanguageTypes.SPANISH ? certificationTextES : certificationTextEN;
 
     return (
         <>
             <div className="certification-container">
                 <img src={certificationPic} alt="logo" className="certification-icon"/>
                 <h2 class="title">Certificación</h2>
-                <p>
-                    Preparación de exámenes internacionales
-                </p>
-                <p>
-                    Capacitación para ingresos a profesorados y traductorados
-                </p>
-                <p>
-                    Clases de inglés general para mejorar la comunicación
-                </p>
+                {translation.map((data, index) => (
+                    <p key={index}>
+                        {data.ul}
+                    </p>
+                ))}
             </div>
         </>
     );

@@ -5,33 +5,28 @@ import './DigitalSignature.css'
 import digitalSignature from "../../../../assets/digital-signature.svg"
 import check from "../../../../assets/check.svg"
 // import { EducationEnglish, EducationSpanish } from "./TitleText";
+import { digitalSignatureTextES, digitalSignatureTextEN } from "./DigitalSignatureText";
 
 const DigitalSignature = () => {
     const { language } = useContext(LanguageContext)
+
+    const translation = language === LanguageTypes.SPANISH ? digitalSignatureTextES : digitalSignatureTextEN;
 
     return (
         <>
             <div className="info-box-container">
                 <img src={digitalSignature} alt="logo" className="signature-icon"/>
                 <h2 class="title">Firma Digital</h2>
+
                 <div class="benefits-container">
-                    <p>
-                    <span><img src={check} alt="logo" className="check-icon"/></span>
-                    Validez Jurídica
-                    </p>
-                    <p>
-                    <span><img src={check} alt="logo" className="check-icon"/></span>
-                    Autenticidad
-                    </p>
-                    <p>
-                    <span><img src={check} alt="logo" className="check-icon"/></span>
-                    Seguridad
-                    </p>
-                    <p>
-                    <span><img src={check} alt="logo" className="check-icon"/></span>
-                    Comodidad y Rapidez
-                    </p>
+                    {translation.map((data, index) => (
+                        <p key={index}>
+                            <span><img src={check} alt="logo" className="check-icon"/></span>
+                            {data.ul}
+                        </p>
+                    ))}
                 </div>
+
             </div>
         </>
     );

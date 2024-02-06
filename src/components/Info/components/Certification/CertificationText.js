@@ -1,14 +1,12 @@
 
-export const digitalSignatureTextES = [
-    {ul:"Validez jurídica"},
-    {ul:"Seguridad"},
-    {ul:"Autenticidad"},
-    {ul:"Comodidad y rapidez"},
+export const certificationTextES = [
+    {ul:"Preparación de exámenes internacionales"},
+    {ul:"Capacitación para ingresos a profesorados y traductorados"},
+    {ul:"Clases de inglés general para mejorar la comunicación"},
 ];
 
-export const digitalSignatureTextEN = [
-    {ul:"Legal validity"},
-    {ul:"Security"},
-    {ul:"Authenticity"},
-    {ul:"Comfort and speed"},
+export const certificationTextEN = [
+    {ul:"Preparation for international exams"},
+    {ul:"Training for teacher and translator entrance exams"},
+    {ul:"General English classes to improve communication"},
 ];
