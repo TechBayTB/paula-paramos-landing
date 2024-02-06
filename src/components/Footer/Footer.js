@@ -27,25 +27,25 @@ const Footer = () => {
                             <p>{language === LanguageTypes.SPANISH ? FooterSpanish.text : FooterEnglish.text}</p>
                         </li>
                         <li>
-                            <h2>SERVICIOS</h2>
+                            <h2>{language === LanguageTypes.SPANISH ? FooterSpanish.title1 : FooterEnglish.title1}</h2>
                             <div className='footerGrid'>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Translation')}>Traducciones</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Courses')}>Cursos</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Firma')}>Firma Digital</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Firma')}>Certificación</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Translation')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text1 : FooterEnglish.text1}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Courses')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text2 : FooterEnglish.text2}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Firma')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text3 : FooterEnglish.text3}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('Firma')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text4 : FooterEnglish.text4}</p>
                             </div>
                         </li>
                         <li>
-                            <h2>SOBRE MÍ</h2>
+                            <h2>{language === LanguageTypes.SPANISH ? FooterSpanish.title2 : FooterEnglish.title2}</h2>
                             <div className='footerGrid'>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('about-me')}>¿Quien Soy?</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('education')}>Mi educación</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('WhyMe')}>¿Por qué elegirme?</p>
-                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('contact')}>Contáctame</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('about-me')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text5 : FooterEnglish.text5}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('education')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text6 : FooterEnglish.text6}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('WhyMe')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text7 : FooterEnglish.text7}</p>
+                                <p style={{cursor: "pointer"}} onClick={() => handleNavigation('contact')}>{language === LanguageTypes.SPANISH ? FooterSpanish.text8 : FooterEnglish.text8}</p>
                             </div>
                         </li>
                         <li>
-                            <h2>CONTACTO</h2>
+                            <h2>{language === LanguageTypes.SPANISH ? FooterSpanish.title3 : FooterEnglish.title3}</h2>
                             <div className='footerGrid'>
                                 <p>Paula Páramos</p>
                                 <p>+54 9 15  5471  7868</p>
