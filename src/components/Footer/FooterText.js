@@ -1,6 +1,6 @@
 export const FooterSpanish =
 {
-    text: 'Construyendo puentes a traves de la educacion y la traduccion, traductora publica y profesora de ingles.',
+    text: 'Construyendo puentes a través de la educacion y la traduccion, traductora publica y profesora de ingles.',
     title1: 'SERVICIOS',
     text1: 'Traducciones',
     text2: 'Cursos de Idioma',

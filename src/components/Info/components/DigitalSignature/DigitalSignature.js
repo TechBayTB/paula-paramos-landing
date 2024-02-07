@@ -5,7 +5,7 @@ import './DigitalSignature.css'
 import digitalSignature from "../../../../assets/digital-signature.svg"
 import check from "../../../../assets/check.svg"
 // import { EducationEnglish, EducationSpanish } from "./TitleText";
-import { digitalSignatureTextES, digitalSignatureTextEN } from "./DigitalSignatureText";
+import { digitalSignatureTextES, digitalSignatureTextEN, digitalSignatureTitleES, digitalSignatureTitleEN  } from "./DigitalSignatureText";
 
 const DigitalSignature = () => {
     const { language } = useContext(LanguageContext)
@@ -16,7 +16,7 @@ const DigitalSignature = () => {
         <>
             <div className="info-box-container">
                 <img src={digitalSignature} alt="logo" className="signature-icon"/>
-                <h2 class="title">Firma Digital</h2>
+                <h2 class="title">{language === LanguageTypes.SPANISH ? digitalSignatureTitleES.title : digitalSignatureTitleEN.title}</h2>
 
                 <div class="benefits-container">
                     {translation.map((data, index) => (
