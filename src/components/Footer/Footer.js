@@ -6,9 +6,16 @@ import { FooterEnglish, FooterSpanish } from './FooterText';
 const Footer = () => {
 
     const { language } = useContext(LanguageContext)
+    
     const handleNavigation = (link) => {
-        document.getElementById(link).scrollIntoView({ behavior: "smooth" })
-    }
+        const element = document.getElementById(link);
+        const offset = 90; // Puedes ajustar este valor según sea necesario
+        const elementPosition = element.offsetTop - offset;
+        window.scrollTo({
+            top: elementPosition,
+            behavior: "smooth"
+        });
+    };
 
     return (
         <>  

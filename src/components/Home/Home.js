@@ -9,6 +9,7 @@ const Home = () => {
     const handleNavigation = (link) => {
         document.getElementById(link).scrollIntoView({ behavior: "smooth" })
     }
+    
     return (
         <>
             <div className="home-background" id="home">
