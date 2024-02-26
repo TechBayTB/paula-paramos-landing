@@ -10,7 +10,7 @@ export const ContactSpanish = [
         placeholder : ' Email'
     },
     {
-        text : 'Ingrese su consulta',
+        text : 'Consulta',
         name : 'text',
         placeholder : ' Texto'
     }
@@ -28,7 +28,7 @@ export const ContactEnglish = [
         placeholder : 'Email'
     },
     {
-        text : 'Type your question',
+        text : 'Message',
         name : 'text',
         placeholder : 'Text'
     }

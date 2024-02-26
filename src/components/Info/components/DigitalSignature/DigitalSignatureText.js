@@ -12,7 +12,7 @@ export const digitalSignatureTextEN = [
     {ul:"Legal validity"},
     {ul:"Security"},
     {ul:"Authenticity"},
-    {ul:"Comfort and speed"},
+    {ul:"Convenience and speed"},
 ];
 
 export const digitalSignatureTitleEN = {title: "Digital Signature"}

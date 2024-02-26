@@ -9,7 +9,7 @@ export const certificationTitleES = {title: "Certificación"}
 
 export const certificationTextEN = [
     {ul:"Preparation for international exams"},
-    {ul:"Training for teacher and translator entrance exams"},
+    {ul:"Preparation for enrollment in teaching and translation courses"},
     {ul:"General English classes to improve communication"},
 ];
 

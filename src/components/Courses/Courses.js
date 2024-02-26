@@ -20,7 +20,7 @@ const Courses = () => {
     return (
         <>
             <div className="Courses" id="Courses">
-                <h2 className="h2-courses rosa">{language === LanguageTypes.SPANISH ? "Cursos de Inglés - Español" : "English Courses - Spanish"}</h2>
+                <h2 className="h2-courses rosa">{language === LanguageTypes.SPANISH ? "Cursos de Inglés - Español" : "English - Spanish courses"}</h2>
                 <div className="flex-courses">
                     <div className="courses-img-container">
                         <img src={require(`../../assets/Captura_de_pantalla_2023-12-14_171802.png`)} alt="img-courses" className="img-courses"/>

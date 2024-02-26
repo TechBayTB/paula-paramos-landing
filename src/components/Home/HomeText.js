@@ -1,11 +1,11 @@
 export const HomeSpanish =
 {
-    h2: 'Construyendo Puentes a través \n de la Educación y la Traducción',
+    h2: 'Construyendo puentes a través \n de la educación y la traducción',
     button: 'Contactame!'
 }
 
 export const HomeEnglish =
 {
-    h2: 'Bridge the gap through \n Education and Translation',
+    h2: 'Building bridges through \n education and translation',
     button: 'Contact'
 }

@@ -11,7 +11,7 @@ export const AboutMeEnglish =
 {
     h2: 'Hi!',
     h3: "I'm Paula Páramos",
-    p: 'As a dedicated professional, i approach each translation project and class with a humanistic view..',
+    p: 'As a dedicated professional, I approach each translation project and class with a humanistic view.',
     p2: 'I hold a strong belief in the transformative power of education and translation to build bridges and break down barriers.',
     p3: 'To me, teaching and translation are more than just tasks, they represent acts of human connection.'
 }

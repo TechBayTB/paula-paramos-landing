@@ -95,13 +95,13 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 420px) {
     .home-background{
-        height: 900px;
-        background-image: url(../../assets/fondo420.jpg);
+        height: 700px;
+        background-image: url(../../assets/fondo300.jpg);
     }
     .home{
-        height: 350px;
+        height: 300px;
         padding: 20px 0px 0px 20px;
     }
     .home-title{
@@ -110,9 +110,41 @@
     }
 }
 
-@media screen and (min-width: 501px) and (max-width: 768px) {
+
+@media screen and (min-width: 421px) and (max-width: 530px) {
     .home-background{
-        height: 900px;
+        height: 700px;
+        background-image: url(../../assets/fondo400.jpg);
+    }
+    .home{
+        height: 300px;
+        padding: 20px 0px 0px 20px;
+    }
+    .home-title{
+        line-height: 70px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (min-width: 531px) and (max-width: 600px) {
+    .home-background{
+        height: 700px;
+        background-image: url(../../assets/fondo420.jpg);
+    }
+    .home{
+        height: 250px;
+        padding: 20px 0px 0px 20px;
+    }
+    .home-title{
+        line-height: 70px;
+        letter-spacing: 1px;
+        white-space: pre-line;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .home-background{
+        height: 600px;
         background-image: url(../../assets/fondo768.jpg);
     }
     .home{

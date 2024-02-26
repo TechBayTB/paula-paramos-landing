@@ -16,7 +16,7 @@ const AboutMe = () => {
                     <p>{language === LanguageTypes.SPANISH ? AboutMeSpanish.p2 : AboutMeEnglish.p2}</p>
                     <p>{language === LanguageTypes.SPANISH ? AboutMeSpanish.p3 : AboutMeEnglish.p3}</p>
                 </div>
-                <img className="about-me-pic" src={require('../../assets/about-me-pic.png')} alt='logo' />
+                <img className="about-me-pic" src={require('../../assets/paula.jpg')} alt='logo' />
             </div>
         </>
     );

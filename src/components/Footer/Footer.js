@@ -31,7 +31,7 @@ const Footer = () => {
                     <ul>
                         <li id='footerTechbay'>
                             <h2>PAULA PÁRAMOS</h2>
-                            <p>{language === LanguageTypes.SPANISH ? FooterSpanish.text : FooterEnglish.text}</p>
+                            <p id='textoFooter'>{language === LanguageTypes.SPANISH ? FooterSpanish.text : FooterEnglish.text}</p>
                         </li>
                         <li>
                             <h2>{language === LanguageTypes.SPANISH ? FooterSpanish.title1 : FooterEnglish.title1}</h2>
@@ -56,13 +56,13 @@ const Footer = () => {
                             <div className='footerGrid'>
                                 <p>Paula Páramos</p>
                                 <p>+54 9 15  5471  7868</p>
-                                <p>paulaparamos@yahoo.com.ar</p>
+                                <p>paramospaula@gmail.com</p>
                                 <p>Buenos Aires, Argentina</p>
                             </div>
                         </li>
                     </ul>
                     <div id='footerLogos'>
-                        <p>Powered by TechBay</p>
+                        <a href='https://techbay.com.ar/' target='blank'><p>Powered by TechBay</p></a>
                     </div>
                 </div>
             </div>

@@ -30,10 +30,10 @@ export const reasonES = [
 
 export const reasonEN = [
     // {logo:"experiencia.svg",title:"Aptitude",descrip:"More than 20 years w of professional experience"},
-    {logo:"experiencia.svg",title:"Extensive experience",descrip:"More than 20 years w of professional experience"},
-    {logo:"reloj.svg",title:"Dedication",descrip:"Punctual compliance with agreed deadlines"},
-    {logo:"capacitacion.svg",title:"Ongoing training",descrip:"I conduct ongoing training sessions regularly"},
-    {logo:"compromiso.svg",title:"Commitment",descrip:"You can trust my constant dedication"},
-    {logo:"adaptabilidad.svg",title:"Adaptability",descrip:"I adapt dynamically to meet your expectations"},
-    {logo:"profesional.svg",title:"Professionalism",descrip:"I take on each project with seriousness and responsibility"},
+    {logo:"experiencia.svg",title:"Extensive experience",descrip:"Over 20 years of professional career"},
+    {logo:"reloj.svg",title:"Dedication",descrip:"Timely delivery of agreed deadlines"},
+    {logo:"capacitacion.svg",title:"Continuous training",descrip:"I pursue training opportunities regularly"},
+    {logo:"compromiso.svg",title:"Commitment",descrip:"You can rely on my constant dedication"},
+    {logo:"adaptabilidad.svg",title:"Adaptability",descrip:"I dynamically adjust to meet your expectations"},
+    {logo:"profesional.svg",title:"Professionalism",descrip:"I approach every project with seriousness and responsibility"},
 ];
