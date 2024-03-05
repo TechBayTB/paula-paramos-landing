@@ -5,7 +5,7 @@ export const EducationSpanish =[
 ]
 
 export const EducationEnglish =[
-    { title: 'Literary and \nTechnical - Scientific Translator', titledesc: "English - Spanish", year: "2002" },
+    { title: 'Literary and Technical - Scientific Translator', titledesc: "English - Spanish", year: "2002" },
     { title: 'Language\n Teacher', titledesc: "English", year: "2004"  },
     { title: 'Certified\n Translator', titledesc: "English - Spanish", year: "2007" },
 ]
