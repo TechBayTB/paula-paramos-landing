@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24d452c7.css",
-    "main.js": "/static/js/main.0a44631f.js",
+    "main.js": "/static/js/main.018dd4aa.js",
     "static/media/paula.jpg": "/static/media/paula.ea2dd9abb7cd4f73e757.jpg",
     "static/media/mujer.png": "/static/media/mujer.c17aaf388a7fbb425dd1.png",
     "static/media/Paula2.png": "/static/media/Paula2.29974a400e470ea13385.png",
@@ -43,10 +43,10 @@
     "static/media/capacitacion.svg": "/static/media/capacitacion.cba8b50064867f8caa8d.svg",
     "static/media/reloj.svg": "/static/media/reloj.93480274fc19990b8120.svg",
     "main.24d452c7.css.map": "/static/css/main.24d452c7.css.map",
-    "main.0a44631f.js.map": "/static/js/main.0a44631f.js.map"
+    "main.018dd4aa.js.map": "/static/js/main.018dd4aa.js.map"
   },
   "entrypoints": [
     "static/css/main.24d452c7.css",
-    "static/js/main.0a44631f.js"
+    "static/js/main.018dd4aa.js"
   ]
 }
