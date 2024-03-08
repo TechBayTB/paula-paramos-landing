@@ -8,7 +8,7 @@ export const titlesDataEsp = [
       name: "Sofía Vilar Ragusa",
     },
     {
-      comment: '“Paula ha traducido varios de mis trabajos pertenecientes al área de la psicología. En su tarea de traductora ha demostrado total profesionalismo y dedicación. Además, tiene una puntualidad digna de mencionar”. ',
+      comment: '“Paula ha traducido mis trabajos pertenecientes al área de la psicología. En su tarea de traductora ha demostrado total profesionalismo y dedicación. Además, tiene una puntualidad digna de mencionar”. ',
       name: "Diana Goldman de Zocchi",
     },
   ];
