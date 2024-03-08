@@ -4,7 +4,7 @@ export const NavBarSpanish = [
         link: 'home'
     },
     {
-        text: 'Sobre Mi',
+        text: 'Sobre Mí',
         link: 'about-me'
 
     },
